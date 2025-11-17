@@ -10,18 +10,18 @@
 ```
 OS-Assignment-2/
 ├── CFiles&makefile/
-│   ├── file1.c              # Function definition (hello)
-│   ├── file2.c              # Main program calling hello()
-│   ├── p.c                  # Process forking example
-│   ├── simple_program.c     # Simple "Hello World" program
-│   └── Makefile             # Build automation
+│   ├── file1.c              
+│   ├── file2.c              
+│   ├── p.c                  
+│   ├── simple_program.c     
+│   └── Makefile             
 ├── txt Files/
-│   ├── linker.txt           # Explanation of the Linker
-│   └── loader.txt           # Explanation of the Loader
-├── PICs/                    # Images and diagrams
-├── README.md                # This file
-├── LICENSE                  # MIT License
-└── .git/                    # Git repository
+│   ├── linker.txt           
+│   └── loader.txt           
+├── PICs/                    
+├── README.md                
+├── LICENSE                  
+└── .git/                    
 ```
 
 ---
