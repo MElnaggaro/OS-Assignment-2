@@ -1,0 +1,3 @@
+The loader takes the program from the disk and loads it into RAM.
+It prepares the program in memory and starts it running.
+

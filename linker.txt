@@ -1,0 +1,3 @@
+The linker puts all the compiled files together into one program.
+It connects functions and variables from different files so the program can run as one piece.
+
