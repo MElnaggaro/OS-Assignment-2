@@ -110,16 +110,16 @@ int main(){
 ### Makefile
 
 ```makefile
-ex1: file1.c file2.c
+linker: file1.c file2.c
 	gcc file1.c file2.c -o out_ex1
 
-ex2:
+process:
 	gcc p.c -o out_ex2
 
-ex3:
+simple:
 	gcc simple_program.c -o out_ex3
 
-all: ex1 ex2 ex3
+all: linker process simple
 ```
 
 ### Build Commands
@@ -129,9 +129,9 @@ all: ex1 ex2 ex3
 make all
 
 # Build specific example
-make ex1
-make ex2
-make ex3
+make linker
+make process
+make simple
 
 # Run the examples
 ./CFiles\&makefile/out_ex1

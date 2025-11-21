@@ -1,10 +1,10 @@
-ex1: file1.c file2.c
+linker: file1.c file2.c
 	gcc file1.c file2.c -o out_ex1
 
-ex2:
+process:
 	gcc p.c -o out_ex2
 
-ex3:
+simple:
 	gcc simple_program.c -o out_ex3
 
-all:ex1 ex2 ex3
+all:linker process simple
